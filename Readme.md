@@ -14,7 +14,7 @@ Projeto desenvolvido durante o Ignite Lab, uma página de login - React com Desi
 
 Foi desenvolvido um projeto em Figma aplicando os conceitos de Design System, criando e separando os componentes, criando e usando o guia de cores.
 
-[Link do projeto no Figma](https://www.figma.com/file/4YTij7271gHYZ9smKkImak/Untitled?node-id=0%3A1)
+[Link do projeto no Figma (Clique aqui)](https://www.figma.com/file/4YTij7271gHYZ9smKkImak/Untitled?node-id=0%3A1)
 
 O Token de cores desenvolvido no Figma foi utilizado para o desenvolvimento do projeto
 
@@ -37,6 +37,8 @@ Foi desenvolvido componentes com variabilidade e propriedades.
 Adicionada Acessibilidade dos components
 
 <img src="src/images/img2.png">
+
+[Link do Deploy do Storybook (Clique aqui)](https://drlazinho.github.io/react-design-system/?path=/story/components-button--default)
 
 ******
 

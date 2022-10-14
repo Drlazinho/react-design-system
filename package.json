@@ -17,6 +17,7 @@
     "@radix-ui/react-slot": "^1.0.0",
     "@storybook/addon-a11y": "^6.5.12",
     "autoprefixer": "^10.4.12",
+    "axios": "^1.1.2",
     "clsx": "^1.2.1",
     "phosphor-react": "^1.4.1",
     "postcss": "^8.4.17",
@@ -40,7 +41,12 @@
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.1",
     "babel-loader": "^8.2.5",
+    "msw": "^0.47.4",
+    "msw-storybook-addon": "^1.6.3",
     "typescript": "^4.6.4",
     "vite": "^3.0.7"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }

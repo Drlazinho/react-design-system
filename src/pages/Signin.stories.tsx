@@ -1,6 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react'
 import { SignIn } from './Signin'
 import { within, userEvent, waitFor } from '@storybook/testing-library'
+import {rest} from 'msw';
 import { expect } from '@storybook/jest'
 
 export default {
@@ -8,7 +9,18 @@ export default {
   component: SignIn,
   // args = props
   args: {},
-  argTypes: {}
+  argTypes: {},
+  parameters: {
+    msw: {
+      handlers:[
+        rest.post('/sessions', (req,res,ctx) => {
+          return res(ctx.json({
+            message: 'Login realizado com sucesso!'
+          }))
+        })
+      ],
+    }
+  }
 } as Meta
 
 export const Default: StoryObj = {
